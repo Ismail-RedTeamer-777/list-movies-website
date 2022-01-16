@@ -1,0 +1,95 @@
+body
+{
+	background-image: url("../img/index_image.jpg");
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+header
+{
+	background-color: black;
+	border-radius: 25px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+header a
+{
+	padding: 20px;
+	margin: 20px;
+	font-family: verdana;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 25px;
+	font-weight: bolder;
+}
+
+a:hover 
+{
+	background-color: yellow;
+}
+
+h1
+{
+	display: flex;
+	padding: 20px;
+	margin: 20px;
+	background-color: white;
+	font-family: verdana;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+}
+
+button 
+{
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color: #c62d1f;
+	border-radius: 18px;
+	border: 1px solid #d02718;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 7px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #810e05;
+	margin: auto;
+	display: block;
+	/*position: fixed*/;
+}
+
+button:hover 
+{
+	background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color: #f24437;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+thead
+{
+	background-color: rgb(255, 127, 80);
+}
+
+td
+{
+	font-family: verdana;
+	background-color: rgb(176, 196, 222);
+}
